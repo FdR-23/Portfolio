@@ -1,0 +1,40 @@
+{
+    "navbar": {
+        "nav1": "Sobre mí",
+        "nav2": "Skills",
+        "nav3": "Proyectos",
+        "nav4": "Contacto"
+    },
+    "intro": {
+        "title": "Hola a todos,soy",
+        "welcome": "Bienvenidos a mi portfolio"
+    },
+    "about": {
+        "title": "Sobre Mí!",
+        "intro1": "Soy una persona curiosa, me gusta entender el funcionamiento las cosas y encanta todo lo relacionado con la informática y el desarrollo.",
+        "intro2": "Me considero una persona proactiva, responsable, analítica, autodidacta, que le gusta trabajar en equipo y tener buena predisposición para enfrentar los problemas y siempre dispuesto a aprender para poder incrementar mis habilidades.",
+        "intro3": "Me encuentro en la búsqueda de mi primera oportunidad laboral para demostrar mis habilidades y estoy abierto a todas las oportunidades que me permitan crecer y seguir capacitándome."
+    },
+    "projects": {
+        "title": "Proyectos",
+        "pokeintro": "Proyecto academico individual del bootcamp de Soy Henrry. Es una SPA (Single Page Aplication), en los que se puede ver distintos tipos de pokemon, tambien se puede filtrar y/o ordenar. Tambien se puede crear nuevos pokemons.",
+        "pokeintro2": "Esta aplicacion fue desarrolloda por mi tanto frontend como backend.",
+        "modalpoke": "Es una SPA, donde se consume una API (PokéAPI), el proyecto consistía en mostrar los Pokémons, buscarlos de forma específica, filtrar y ordenar. También puedes ver los detalles de cada Pokémon haciendo clic en la imagen y puedes crear un Pokémon.",
+        "bnb_vermas": "ver mas",
+        "modal_tecnologia": "Tecnologias:",
+        "bnb_codigo": "Codigo",
+        
+        "weatherAppintro": "Es una SPA (Single Page Aplication) en el que se puede buscar el clima de distintas ciudades.",
+        "weatherAppintro2": "Esta aplicacion fue desarrolloda por mi.",
+        "modalweatherApp": "Es una SPA, donde se consume una API (OpenWeathermap). Se puede buscar la ciudad que queremos ver, se van a ir mostrando en pantalla con la temperatura, el país y una imagen del clima, se puede eliminar que ya no queremos ver. También en opción More Details se puede ver más información de la ciudad.",
+        
+        "heanrybankintro": "Proyecto academico grupal del bootcamp de Soy Henrry. Es un monedero virtual mobile, donde el usuario puede ingresar dinero, como recibir dinero desde su cuenta, comprar y vender divisas, como también criptomonedas.",
+        "heanrybankintro2": "En este proyecto trabaje en el backend.",
+        "modalhenrybank": "Henry Bank es un monedero virtual en formato móvil (apk) desarrollado en React Native. Nació como un proyecto grupal integrador para poner en práctica todos los conocimientos adquiridos en el bootcamp de Soy Henry. Tambien trabajamos mediante la metodología SCRUM",
+        "bnb_code_front": "Codigo-Frontend",
+        "bnb_code_back": "Codigo-Backend"
+    },
+    "contact" :{
+        "title":"Contacto"
+    }
+}
