@@ -72,8 +72,8 @@ function Navbar() {
             <a className='text-xs md:text-sm p-1 lg:p-2' href="#contacts">{t("navbar.nav4")}</a></li>
           <li className='hover:scale-125 duration-300 brightness-90 hover:brightness-200 
           hover:text-shadow-titledark dark:hover:text-shadow-white'>{i18n.language === "es" ?
-              <a className='text-xs md:text-sm p-1 lg:p-2' href={Cv_spanish} rel="noopener noreferrer" target="_blank">Cv.</a> :
-              <a className='text-xs md:text-sm p-1 lg:p-2' href={Cv_english} rel="noopener noreferrer" target="_blank">Cv.</a>
+              <a className='text-xs md:text-sm p-1 lg:p-2' href={Cv_spanish} rel="noopener noreferrer" target="_blank">Cv.<sup>ES</sup></a> :
+              <a className='text-xs md:text-sm p-1 lg:p-2' href={Cv_english} rel="noopener noreferrer" target="_blank">Cv.<sup>EN</sup></a>
             }</li>
         </ul>
       </nav>
@@ -87,10 +87,10 @@ function Navbar() {
           <li>{i18n.language === "es" ?
             <a className='dark:text-shadow-titledark text-xs p-1'
               href={Cv_spanish} rel="noopener noreferrer" target="_blank">
-              Cv.</a> :
+              Cv.<sup>ES</sup></a> :
             <a className='dark:text-shadow-titledark text-xs p-1'
               href={Cv_english} rel="noopener noreferrer" target="_blank">
-              Cv.</a>
+              Cv.<sup>EN</sup></a>
           }
           </li>
         </ul>
