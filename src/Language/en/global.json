@@ -32,8 +32,16 @@
         "heanrybankintro2": "In this project I worked on the backend.",
         "modalhenrybank": "Henry Bank is a virtual wallet in mobile format (apk) developed in React Native. It was born as an integrative group project to put into practice all the knowledge acquired in the Soy Henry bootcamp. We also work using the SCRUM methodology",
         "bnb_code_front": "Code-Frontend",
-        "bnb_code_back": "Code-Backend"
-    },
+        "bnb_code_back": "Code-Backend",
+
+        "ToDoListIntro": "Project that consists of creating your own task list.",
+        "ToDoListIntro2": "Esta aplicacion fue desarrolloda por mi.",
+        "modalTodoList":"App used to create your list of tasks, in which we can add them and once we have completed it, we can change its status and delete it, we can also delete a set of completed tasks or clean the entire list without having completed the tasks.",
+
+        "CalcIntro": "Project consisting of the creation of a calculator with basic functions..",
+        "CalcIntro2": "Esta aplicacion fue desarrolloda por mi.",
+        "modalCalc":"Project consisting of the creation of a calculator with basic functions."
+    }, 
 
     "contact" :{
         "title":"Contact"
