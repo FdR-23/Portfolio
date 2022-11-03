@@ -219,7 +219,7 @@ function Skills() {
             sm:m-2 sm:mx-4'
             href='https://github.com/' target='_blank' rel="noreferrer">
               <img className='w-10 md:w-12 lg:w-14' src={github1} alt="Github" />
-              <span className='dark:text-white'>Sequelize</span>
+              <span className='dark:text-white'>GitHub</span>
             </a>
             <a data-aos="flip-down" data-aos-duration="1400"
             className='w-28 h-24 lg:w-32 lg:h-28 m-2 mx-2  flex flex-col items-center justify-center 
