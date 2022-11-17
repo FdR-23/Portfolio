@@ -316,16 +316,16 @@ function Proyects() {
               </p>
 
               <div className='flex flex-row justify-end'>
-                <label htmlFor="my4-modal" className="btn btn-outline btn-xs w-20
+                <label htmlFor="my5-modal" className="btn btn-outline btn-xs w-20
                   dark:hover:bg-black/30  dark:shadow-inner dark:shadow-white dark:text-white 
                   dark:hover:shadow-sm dark:hover:shadow-white">{t('projects.bnb_vermas')}</label>
               </div>
             </div>
           </div>
-          <input type="checkbox" id="my4-modal" className="modal-toggle" />
+          <input type="checkbox" id="my5-modal" className="modal-toggle" />
           <div className="modal">
             <div className="modal-box dark:bg-gray-700 dark:text-white">
-              <label htmlFor="my4-modal" className="btn btn-xs btn-circle  hover:bg-white absolute right-2 top-2">
+              <label htmlFor="my5-modal" className="btn btn-xs btn-circle  hover:bg-white absolute right-2 top-2">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512" enableBackground="new 0 0 512 512">
                   <path d="M256,0C114.844,0,0,114.844,0,256s114.844,256,256,256s256-114.844,256-256S397.156,0,256,0z M358.625,313.375  c12.5,12.492,12.5,32.758,0,45.25C352.383,364.875,344.188,368,336,368s-16.383-3.125-22.625-9.375L256,301.25l-57.375,57.375  C192.383,364.875,184.188,368,176,368s-16.383-3.125-22.625-9.375c-12.5-12.492-12.5-32.758,0-45.25L210.75,256l-57.375-57.375  c-12.5-12.492-12.5-32.758,0-45.25c12.484-12.5,32.766-12.5,45.25,0L256,210.75l57.375-57.375c12.484-12.5,32.766-12.5,45.25,0  c12.5,12.492,12.5,32.758,0,45.25L301.25,256L358.625,313.375z" />
                 </svg>
@@ -376,16 +376,16 @@ function Proyects() {
               </p>
 
               <div className='flex flex-row justify-end'>
-                <label htmlFor="my5-modal" className="btn btn-outline btn-xs w-20
+                <label htmlFor="my6-modal" className="btn btn-outline btn-xs w-20
                   dark:hover:bg-black/30  dark:shadow-inner dark:shadow-white dark:text-white 
                   dark:hover:shadow-sm dark:hover:shadow-white">{t('projects.bnb_vermas')}</label>
               </div>
             </div>
           </div>
-          <input type="checkbox" id="my5-modal" className="modal-toggle" />
+          <input type="checkbox" id="my6-modal" className="modal-toggle" />
           <div className="modal">
             <div className="modal-box dark:bg-gray-700 dark:text-white">
-              <label htmlFor="my5-modal" className="btn btn-xs btn-circle  hover:bg-white absolute right-2 top-2">
+              <label htmlFor="my6-modal" className="btn btn-xs btn-circle  hover:bg-white absolute right-2 top-2">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512" enableBackground="new 0 0 512 512">
                   <path d="M256,0C114.844,0,0,114.844,0,256s114.844,256,256,256s256-114.844,256-256S397.156,0,256,0z M358.625,313.375  c12.5,12.492,12.5,32.758,0,45.25C352.383,364.875,344.188,368,336,368s-16.383-3.125-22.625-9.375L256,301.25l-57.375,57.375  C192.383,364.875,184.188,368,176,368s-16.383-3.125-22.625-9.375c-12.5-12.492-12.5-32.758,0-45.25L210.75,256l-57.375-57.375  c-12.5-12.492-12.5-32.758,0-45.25c12.484-12.5,32.766-12.5,45.25,0L256,210.75l57.375-57.375c12.484-12.5,32.766-12.5,45.25,0  c12.5,12.492,12.5,32.758,0,45.25L301.25,256L358.625,313.375z" />
                 </svg>
