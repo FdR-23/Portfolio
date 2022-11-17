@@ -53,8 +53,8 @@ function Skills() {
             className='w-28 h-24 lg:w-32 lg:h-28 m-2 mx-2 lg:m-4 lg:mx-4  flex flex-col items-center justify-center
             bg-gray-500/10 dark:bg-transparent 
             text-lg shadow-sm hover:shadow-lg  rounded-3xl 
-            md:dark:hover:shadow-md md:dark:hover:shadow-cyan-400 
-            lg:dark:hover:shadow-lg lg:dark:hover:shadow-cyan-400 
+            md:dark:hover:shadow-md md:dark:hover:shadow-cyan-300 
+            lg:dark:hover:shadow-lg lg:dark:hover:shadow-cyan-300 
             dark:shadow-sm dark:shadow-white dark:rounded-3xl dark:text-cyan-50 
             hover:scale-105 ease-in-out duration-300
             sm:m-2 sm:mx-4' 
@@ -179,8 +179,8 @@ function Skills() {
             className='w-28 h-24 lg:w-32 lg:h-28 m-2 mx-2  flex flex-col items-center justify-center 
             bg-gray-500/10 dark:bg-transparent
             text-lg shadow-sm hover:shadow-lg  rounded-3xl 
-            md:dark:hover:shadow-md md:dark:hover:shadow-cyan-900 
-            lg:dark:hover:shadow-lg lg:dark:hover:shadow-cyan-900 
+            md:dark:hover:shadow-md md:dark:hover:shadow-cyan-500 
+            lg:dark:hover:shadow-lg lg:dark:hover:shadow-cyan-500 
             dark:shadow-sm dark:shadow-white dark:rounded-3xl dark:text-cyan-50 
             hover:scale-105 ease-in-out duration-300
             sm:m-2 sm:mx-4' 

@@ -34,6 +34,10 @@
         "bnb_code_front": "Codigo-Frontend",
         "bnb_code_back": "Codigo-Backend",
 
+        "ChallengeRappi": "Frontend Developer Challenge de Rappi",
+        "ChallengeRappi2": "Esta aplicacion fue desarrolloda por mi.",
+        "modalChallengeRappi":"Frontend Developer Challenge de Rappi se pedian algunos requerimientos para un e-commerce como, menu con subniveles, filtrar y ordenar productos por precio, cantidad y disponibilidad, crear un carrito y que los productos queden en el carrito si el usuario cierra la pagina,etc. Todo requirimientos estan en el readme de github.",
+
 
         "ToDoListIntro": "Proyecto que consiste en la creación de tu propia lista de tarea.",
         "ToDoListIntro2": "Esta aplicacion fue desarrolloda por mi.",
