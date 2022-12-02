@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Cv_spanish from '../../assets/Cv/Cv_Spanish.pdf';
-import Cv_english from '../../assets/Cv/Cv_English.pdf';
+import Cv_spanish from '../../assets/Cv/Cv_Rampi_Federico_Spanish.pdf';
+import Cv_english from '../../assets/Cv/Cv_Rampi_Federico_English.pdf';
 
 import Toggle from './Toggle';
 import ScrollBack from './ScrollBack'
