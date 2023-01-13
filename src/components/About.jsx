@@ -9,7 +9,7 @@ function About() {
 
     <div id="about" className='m-2 p-2 rounded-xl flex flex-col justify-center max-w-full h-scree'>
 
-      <section className='p-2  sm:m-8 lg:p-8 max-w-full  rounded-lg 
+      <section className='p-2  sm:m-12 lg:p-8 max-w-full  rounded-lg 
        bg-gray-500/10 dark:bg-transparent shadow-md hover:shadow-lg'>
 
 
