@@ -24,9 +24,6 @@ function Intro() {
       <section className='p-4 flex flex-col justify-center max-w-full rounded-lg  '> */}
 
 
-
-
-
         <div>
           <div className="sm:grid sm:grid-cols-2  flex flex-col items-center">
 
@@ -46,12 +43,11 @@ function Intro() {
               />
             </div>
 
-
             <div className="flex flex-col font-ubuntu rounded-lg shadow-sm bg-gray-500/10
                px-8 py-3 m-2 text-center  backdrop-blur-md 
                sm:mr-auto  sm:px-10 sm:py-2 sm:relative sm:right-12 sm:top-28   
                md:mr-auto md:px-12 md:py-6 md:relative md:right-14 md:top-32 
-               lg:mr-auto lg:px-16 lg:py-8 lg:relative lg:right-16 lg:top-36"              
+               lg:mr-auto lg:px-16 lg:py-8 lg:relative lg:right-16 lg:top-36"
               data-aos="fade-up-left"
               data-aos-delay="500"
               data-aos-duration="2000">

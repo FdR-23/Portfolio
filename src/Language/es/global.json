@@ -38,6 +38,9 @@
         "ChallengeRappi2": "Esta aplicacion fue desarrolloda por mi.",
         "modalChallengeRappi":"Frontend Developer Challenge de Rappi se pedían algunos requerimientos para un e-commerce como, menú con subniveles, filtrar y ordenar productos por precio, cantidad y disponibilidad, crear un carrito y que los productos queden en el carrito si el usuario cierra la página, etc. Todos los requerimientos están en el readme de Github.",
 
+        "ChallengeLogin": "Challenge que contiene Roles como admin y user, en el que vamos a poder registrarnos y al ingresar vamos a ver una tabla de clientes que podemos crear, modificar y eliminar con el rol de admin. ",
+        "ChallengeLogin2": "También vamos a poder filtrarlos de mayor a menor o viceversa, también buscar por nombre y por rango de edad.",
+        "modalChallengeLogin": "Para este reto en el Fronted usamos React, Redux para la gestión de estados y Tailwind CSS para los estilos, también para el cifrado de contraseñas usamos JWT. En la parte de Backend tuve que generar una API REST para el Login y el CRUD, el cual hice las rutas con Express.js y para la Base de Datos, estuve aprendiendo a usar MongoDB, con el ORM Mongoose. Más información encontraran en el Readme del Repositorio de Github.",
 
         "ToDoListIntro": "Proyecto que consiste en la creación de tu propia lista de tarea.",
         "ToDoListIntro2": "Esta aplicacion fue desarrolloda por mi.",

@@ -26,7 +26,6 @@ function Skills() {
     <div id="skills" className='m-2 p-2 rounded-lg max-w-full'>
 
       <section className='p-4 lg:p-8 max-w-full h-full rounded-lg '>
-
         
       <h2 className='tracking-widest font-alegraya m-2 text-3xl text-center font-medium 
       dark:text-blue-600 lg:text-5xl lg:m-4 text-blue-900 dark:text-shadow-titledark' >SKILLS</h2>

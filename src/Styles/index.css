@@ -21,20 +21,13 @@ code {
 } */
 /* from-white to-gray-200 */
 
- /* bg-gray-100  */
-
-body{
- @apply bg-[url('../img/background/background.jpg')] bg-cover bg-no-repeat  dark:bg-gradient-to-bl
- dark:from-black/80 dark:to-slate-600 
+/* bg-gray-100  */
+html {
+  @apply scroll-smooth 
 }
 
-* {
-margin: 0%;
-padding: 0%;
-scroll-behavior: smooth;
-}
 
 body {
-max-width: 100vw;
+  @apply m-auto max-w-screen-2xl p-0 bg-back-page bg-cover bg-no-repeat 
+  dark:bg-gradient-to-bl dark:from-black/80 dark:to-slate-600
 }
-
