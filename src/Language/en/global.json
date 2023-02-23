@@ -34,6 +34,10 @@
         "bnb_code_front": "Code-Frontend",
         "bnb_code_back": "Code-Backend",
 
+        "MeliCLoneIntro": "Project based on MercadoLibre's challenge, but this time we made a clone of MercadoLibre's main page and consumed its API to give it some functionalities.",
+        "MeliCLone2": "",
+        "modalMeliCLone":"The main functions of the application are, item search with results view and also filtering, item details showing also questions asked by users.",
+
         "ChallengeRappi": "Rappi Frontend Developer Challenge",
         "ChallengeRappi2": "This application was developed by me.",
         "modalChallengeRappi":"Frontend Developer Challenge of Rappi asked for some requirements for an e-commerce like, menu with sublevels, filter and sort products by price, quantity and availability, create a cart and the products stay in the cart if the user closes the page, etc. All requirements are in the github readme.",
@@ -44,11 +48,8 @@
 
         "ToDoListIntro": "Project that consists of creating your own task list.",
         "ToDoListIntro2": "This application was developed by me.",
-        "modalTodoList":"App used to create your list of tasks, in which we can add them and once we have completed it, we can change its status and delete it, we can also delete a set of completed tasks or clean the entire list without having completed the tasks.",
+        "modalTodoList":"App used to create your list of tasks, in which we can add them and once we have completed it, we can change its status and delete it, we can also delete a set of completed tasks or clean the entire list without having completed the tasks."
 
-        "CalcIntro": "Project consisting of the creation of a calculator with basic functions..",
-        "CalcIntro2": "This application was developed by me.",
-        "modalCalc":"Project consisting of the creation of a calculator with basic functions."
     }, 
 
     "contact" :{

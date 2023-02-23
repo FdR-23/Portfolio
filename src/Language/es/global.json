@@ -34,6 +34,10 @@
         "bnb_code_front": "Codigo-Frontend",
         "bnb_code_back": "Codigo-Backend",
 
+        "MeliCLoneIntro": "Proyecto realizado en base al challenge de MercadoLibre, pero en esta ocasión se realizó un clon de la página principal de MercadoLibre y se consumió su API para darle algunas funcionalidades.",
+        "MeliCLone2": "",
+        "modalMeliCLone":"Las funciones principales de la aplicación son, la búsqueda de artículos con vista de los resultados y también filtrado, detalles de articulo mostrando también preguntas hechas por los usuarios.",
+        
         "ChallengeRappi": "Frontend Developer Challenge de Rappi",
         "ChallengeRappi2": "Esta aplicacion fue desarrolloda por mi.",
         "modalChallengeRappi":"Frontend Developer Challenge de Rappi se pedían algunos requerimientos para un e-commerce como, menú con subniveles, filtrar y ordenar productos por precio, cantidad y disponibilidad, crear un carrito y que los productos queden en el carrito si el usuario cierra la página, etc. Todos los requerimientos están en el readme de Github.",
@@ -44,11 +48,8 @@
 
         "ToDoListIntro": "Proyecto que consiste en la creación de tu propia lista de tarea.",
         "ToDoListIntro2": "Esta aplicacion fue desarrolloda por mi.",
-        "modalTodoList":"App que sirve para crear tu lista de tareas, en el cual podremos agregarlas y una vez que la hemos completado, podemos cambiar su status y eliminarla, también se puede eliminar un conjunto de tareas completadas o bien limpiar toda la lista sin que se haya completado las tareas.",
+        "modalTodoList":"App que sirve para crear tu lista de tareas, en el cual podremos agregarlas y una vez que la hemos completado, podemos cambiar su status y eliminarla, también se puede eliminar un conjunto de tareas completadas o bien limpiar toda la lista sin que se haya completado las tareas."
 
-        "CalcIntro": "Proyecto que consiste en la creación de una calculadora con funciones basicas.",
-        "CalcIntro2": "Esta aplicacion fue desarrolloda por mi.",
-        "modalCalc":"Proyecto que consiste en la creación de una calculadora con funciones basicas."
     },
     "contact" :{
         "title":"Contacto"
