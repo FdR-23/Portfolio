@@ -11,9 +11,9 @@
     },
     "about": {
         "title": "About Me!",
-        "intro1": "A curious person, who likes to understand how things work and likes anything related to computers and development.",
-        "intro2": "I consider myself a proactive, responsible, analytical, self-taught person, who likes to work in a team and have a good predisposition to face problems and always willing to learn in order to increase my skills.",
-        "intro3": "My goals are to put into practice the skills I have developed, continue to learn new technologies and best practices, as well as to join a team and collaborate my experience. technologies and best practices, also to join a team and collaborate with my experience. I am open to all opportunities that allow me to grow either as Front end, Back end or Full stack."
+        "intro1": "As a passionate software developer, I am always looking for new challenges to put my skills and knowledge into practice. I consider myself a curious and self-taught person, which allows me to keep myself updated with the latest technologies and trends in the IT and development field.",
+        "intro2": "I am a proactive and collaborative team member with a strong work ethic and analytical skills to solve problems efficiently. In addition, I am always willing to learn and take on new challenges to expand my skills and experience.",
+        "intro3": "I am excited to join an innovative and dynamic team, where I can apply my skills and knowledge to make a significant contribution. Whether as a Full-stack Developer or Front-end, I am confident that I can be a valuable asset to any project. I look forward to exploring exciting opportunities in this area and being part of a passionate and committed team."
     },
     "projects": {
         "title": "Projects",
