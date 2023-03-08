@@ -48,10 +48,15 @@
 
         "ToDoListIntro": "Proyecto que consiste en la creación de tu propia lista de tarea.",
         "ToDoListIntro2": "Esta aplicacion fue desarrolloda por mi.",
-        "modalTodoList":"App que sirve para crear tu lista de tareas, en el cual podremos agregarlas y una vez que la hemos completado, podemos cambiar su status y eliminarla, también se puede eliminar un conjunto de tareas completadas o bien limpiar toda la lista sin que se haya completado las tareas."
+        "modalTodoList":"App que sirve para crear tu lista de tareas, en el cual podremos agregarlas y una vez que la hemos completado, podemos cambiar su status y eliminarla, también se puede eliminar un conjunto de tareas completadas o bien limpiar toda la lista sin que se haya completado las tareas.",
 
+        
+        "GitAppIntro":"He desarrollado una aplicación web utilizando React y Tailwind CSS en el frontend, y Express.js para la creación de rutas. La aplicación consume la API de GitHub, utilizando el paquete link-header para implementar el paginado que proporciona la propia API.",
+        "GitAppIntro2":"",
+        "modalGitApp":"La aplicación permite visualizar un listado de usuarios de GitHub, con la posibilidad de acceder a los detalles de cada usuario y sus respectivos repositorios. Mi enfoque en el desarrollo de esta aplicación ha sido mejorar mis habilidades en el manejo de APIs y en la construcción de aplicaciones web utilizando React."
     },
     "contact" :{
         "title":"Contacto"
     }
 }
+

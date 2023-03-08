@@ -2,7 +2,8 @@ import React from 'react'
 import WeatherApp_img from '../img/proyects/WeatherApp.png'
 import PokemonApp_img from '../img/proyects/PiPokemon.png'
 import HenryBank from '../img/proyects/HenryBank1.png'
-import ToDoList from '../img/proyects/ToDoList.png'
+//import ToDoList from '../img/proyects/ToDoList.png'
+import GitHubApp from '../img/proyects/GItApp.png'
 import ChallengeRappi from '../img/proyects/ChallengeRappi.png'
 import ChallengeLogin from '../img/proyects/LoginChallenge.png'
 import MeliClone from '../img/proyects/Meli_clone.png'
@@ -238,8 +239,8 @@ function Proyects() {
             </div>
 
           </div>
-  {/* MELI CLONE REACT */}
-  <div data-aos="zoom-in-right" data-aos-duration="1000"
+          {/* MELI CLONE REACT */}
+          <div data-aos="zoom-in-right" data-aos-duration="1000"
             className="m-4 flex flex-col md:flex-row rounded-lg items-center
            bg-gray-500/20 dark:bg-transparent dark:md:hover:shadow-white/20 md:w-11/12 md:h-72 md:hover:shadow-lg shadow-md">
             <img className=" rounded-t-lg object-fit  md:shadow-md md:shadow-black
@@ -428,22 +429,22 @@ function Proyects() {
             </div>
           </div>
 
-          {/* TODO LIST */}
+          {/* Git Hub App */}
           <div data-aos="zoom-in-right" data-aos-duration="1000"
             className="m-4 flex flex-col md:flex-row rounded-lg items-center
            bg-gray-500/20 dark:bg-transparent dark:md:hover:shadow-white/20 md:w-11/12 md:h-72 md:hover:shadow-lg shadow-md">
             <img className=" rounded-t-lg object-fit  md:shadow-md md:shadow-black
             md:m-4 md:h-auto md:w-80  md:rounded-lg
             dark:md:shadow-md dark:md:shadow-white/50"
-              src={ToDoList} alt="ToDoList_img" />
+              src={GitHubApp} alt="ToDoList_img" />
 
             <div data-aos="fade-up" data-aos-duration="2000"
               className="p-6 flex flex-col flex-growjustify-start w-full">
               <h3 className="text-xl font-medium mb-2
-               text-purple-700 dark:text-shadow-titledark">ToDo List App</h3>
+               text-purple-700 dark:text-shadow-titledark">Git Hub App</h3>
               <p className="text-gray-700 text-base mb-4 
-              dark:text-white">{t('projects.ToDoListIntro')}<br />
-                {t('projects.ToDoListIntro2')}
+              dark:text-white">{t('projects.GitAppIntro')}<br />
+                {t('projects.GitAppIntro2')}
               </p>
 
               <div className='flex flex-row justify-end'>
@@ -461,24 +462,25 @@ function Proyects() {
                   <path d="M256,0C114.844,0,0,114.844,0,256s114.844,256,256,256s256-114.844,256-256S397.156,0,256,0z M358.625,313.375  c12.5,12.492,12.5,32.758,0,45.25C352.383,364.875,344.188,368,336,368s-16.383-3.125-22.625-9.375L256,301.25l-57.375,57.375  C192.383,364.875,184.188,368,176,368s-16.383-3.125-22.625-9.375c-12.5-12.492-12.5-32.758,0-45.25L210.75,256l-57.375-57.375  c-12.5-12.492-12.5-32.758,0-45.25c12.484-12.5,32.766-12.5,45.25,0L256,210.75l57.375-57.375c12.484-12.5,32.766-12.5,45.25,0  c12.5,12.492,12.5,32.758,0,45.25L301.25,256L358.625,313.375z" />
                 </svg>
               </label>
-              <h3 className="font-semibold text-xl">ToDo List App</h3>
-              <p className="py-4">{t('projects.modalTodoList')}
+              <h3 className="font-semibold text-xl">Git Hub App</h3>
+              <p className="py-4">{t('projects.modalGitApp')}
               </p>
               <h3 className="font-bold text-lg">{t('projects.modal_tecnologia')}</h3>
               <div className='flex flex-row flex-wrap justify-center'>
+                <img className='w-8 m-1 mx-2' src={js} alt="javascript" />
                 <img className='w-8 m-1 mx-2' src={html} alt="html" />
                 <img className='w-8 m-1 mx-2' src={tailwind} alt="css" />
                 <img className='w-8 m-1 mx-2' src={react} alt="nextjs" />
               </div>
               <div className="modal-action">
                 <label className="shadow-white shadow-inner btn btn-sm dark:bg-white/10 dark:hover:shadow-md dark:hover:shadow-white"><a
-                  className='flex flex-row justify-center items-center' target='_black' href="https://todo-list-eight-tau.vercel.app/" rel="noopener noreferrer" >
+                  className='flex flex-row justify-center items-center' target='_black' href="https://git-hub-app.onrender.com/" rel="noopener noreferrer" >
                   <svg className=" mr-2 fill-white" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 16 16">
                     <path fillRule="evenodd" d="M5,2 C5.55228,2 6,2.44772 6,3 C6,3.55228 5.55228,4 5,4 L4,4 L4,12 L12,12 L12,11 C12,10.4477 12.4477,10 13,10 C13.5523,10 14,10.4477 14,11 L14,12 C14,13.1046 13.1046,14 12,14 L4,14 C2.89543,14 2,13.1046 2,12 L2,4 C2,2.89543 2.89543,2 4,2 L5,2 Z M15,1 L15,5.99814453 C15,6.55043453 14.5523,6.99814453 14,6.99814453 C13.4477,6.99814453 13,6.55043453 13,5.99814453 L13,4.41419 L8.71571,8.69846 C8.32519,9.08899 7.69202,9.08899 7.3015,8.69846 C6.91097,8.30794 6.91097,7.67477 7.3015,7.28425 L11.5858,3 L9.99619141,3 C9.44391141,3 8.99619141,2.55228 8.99619141,2 C8.99619141,1.44772 9.44391141,1 9.99619141,1 L15,1 Z" />
                   </svg>
                   Deploy</a></label>
                 <label className="shadow-white shadow-inner btn btn-sm dark:bg-white/10 dark:hover:shadow-md dark:hover:shadow-white"><a
-                  className='flex flex-row justify-center items-center ' target='_black' href="https://github.com/FdR-23/Todo-List" rel="noopener noreferrer" >
+                  className='flex flex-row justify-center items-center ' target='_black' href="https://github.com/FdR-23/Git-Hub-App" rel="noopener noreferrer" >
                   <svg className=" mr-2 fill-white" xmlns="http://www.w3.org/2000/svg" width="20"
                     shapeRendering="geometricPrecision" textRendering="geometricPrecision"
                     imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd"
@@ -488,7 +490,7 @@ function Proyects() {
             </div>
           </div>
 
-        
+
 
 
 
