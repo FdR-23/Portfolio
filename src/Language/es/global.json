@@ -53,7 +53,11 @@
         
         "GitAppIntro":"He desarrollado una aplicación web utilizando React y Tailwind CSS en el frontend, y Express.js para la creación de rutas. La aplicación consume la API de GitHub, utilizando el paquete link-header para implementar el paginado que proporciona la propia API.",
         "GitAppIntro2":"",
-        "modalGitApp":"La aplicación permite visualizar un listado de usuarios de GitHub, con la posibilidad de acceder a los detalles de cada usuario y sus respectivos repositorios. Mi enfoque en el desarrollo de esta aplicación ha sido mejorar mis habilidades en el manejo de APIs y en la construcción de aplicaciones web utilizando React."
+        "modalGitApp":"La aplicación permite visualizar un listado de usuarios de GitHub, con la posibilidad de acceder a los detalles de cada usuario y sus respectivos repositorios. Mi enfoque en el desarrollo de esta aplicación ha sido mejorar mis habilidades en el manejo de APIs y en la construcción de aplicaciones web utilizando React.",
+   
+        "SmartInvestIntro":"Es una plataforma donde podrán encontrar noticias, listados, tendencias y detalles sobre criptomonedas, todo en un solo lugar.",
+        "SmartInvestIntro2":"",
+        "modalSmartInvest":"Además, podrán acceder a detalles y un gráfico interactivo que muestra los precios en diferentes periodos, desde 24 horas hasta el máximo histórico. Todo esto es posible gracias a la integración de la API de CoinGecko y una API de noticias que he incorporado en la aplicación."
     },
     "contact" :{
         "title":"Contacto"
