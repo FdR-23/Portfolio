@@ -56,7 +56,11 @@
        
         "SmartInvestIntro":"It is a platform where you can find news, listings, trends, and details about cryptocurrencies, all in one place.",
         "SmartInvestIntro2":"",
-        "modalSmartInvest":"Additionally, users will be able to access details and an interactive chart that displays prices over different periods, ranging from 24 hours to the all-time high. All of this is made possible through the integration of the CoinGecko API and a news API that I have incorporated into the application."
+        "modalSmartInvest":"Additionally, users will be able to access details and an interactive chart that displays prices over different periods, ranging from 24 hours to the all-time high. All of this is made possible through the integration of the CoinGecko API and a news API that I have incorporated into the application.",
+               
+        "UnderGraffIntro":"Women's fashion store project.",
+        "UnderGraffIntro2":"",
+        "modalUnderGraff":"On this platform, products are organized into various categories for a seamless shopping experience. Userqs can browse products and add their favorite items to a personalized shopping cart."
     }, 
 
     "contact" :{

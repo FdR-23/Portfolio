@@ -57,7 +57,11 @@
    
         "SmartInvestIntro":"Es una plataforma donde podrán encontrar noticias, listados, tendencias y detalles sobre criptomonedas, todo en un solo lugar.",
         "SmartInvestIntro2":"",
-        "modalSmartInvest":"Además, podrán acceder a detalles y un gráfico interactivo que muestra los precios en diferentes periodos, desde 24 horas hasta el máximo histórico. Todo esto es posible gracias a la integración de la API de CoinGecko y una API de noticias que he incorporado en la aplicación."
+        "modalSmartInvest":"Además, podrán acceder a detalles y un gráfico interactivo que muestra los precios en diferentes periodos, desde 24 horas hasta el máximo histórico. Todo esto es posible gracias a la integración de la API de CoinGecko y una API de noticias que he incorporado en la aplicación.",
+          
+        "UnderGraffIntro":"Proyecto de tienda de moda femenina.",
+        "UnderGraffIntro2":"",
+        "modalUnderGraff":"En esta plataforma, los productos están organizados en diversas categorías para una experiencia de compra fluida. Los usuarios pueden explorar los productos y agregar sus artículos favoritos a un carrito de compras personalizado."
     },
     "contact" :{
         "title":"Contacto"

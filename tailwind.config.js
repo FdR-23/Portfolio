@@ -26,7 +26,7 @@ module.exports = {
       },
       textShadow: {
         'titleday': '-1px 1px 20px rgb(113 134 200)',
-        'titledark': '-2px 1px 8px rgb(0 0 0)',
+        'titledark': '-2px 1px 8px rgb(118 118 118 / 40%)',
         'white': '-2px 1px 10px rgb(255 255 255)',
         'name': '1px 1px 4px rgb(255 255 255 / 75%);',
         'contact-red': '-2px 1px 8px rgb(200  38 38)',
