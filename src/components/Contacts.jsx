@@ -18,7 +18,7 @@ function Contacs() {
 
         <h2 className='tracking-widest font-alegraya m-2 text-3xl 
         text-center font-medium lg:text-5xl lg:m-4 dark:text-blue-600 
-         text-blue-900 dark:text-shadow-titledark' >{t('contact.title')}</h2>
+         text-blue-900 dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]' >{t('contact.title')}</h2>
 
 
 
@@ -28,7 +28,7 @@ function Contacs() {
           <div className='m-4 w-52 h-36 flex flex-col justify-center items-center
            bg-gray-500/10 dark:bg-transparent hover:shadow-gray-600 hover:shadow-md shadow-lg
            dark:shadow-sm dark:shadow-white dark:hover:shadow-white dark:hover:shadow-lg rounded-xl
-          hover:scale-105 ease-in-out duration-300 hover:text-shadow-titledark dark:hover:text-shadow-contact-white'
+          hover:scale-105 ease-in-out duration-300 hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_8px_rgb(255_255_255)]'
             data-aos="fade-down-right"
             data-aos-duration="2000" id="contacts">
             <a className='flex flex-col items-center text-lg dark:text-cyan-50 p-2' href='https://github.com/FdR-23'>
@@ -41,7 +41,7 @@ function Contacs() {
           <div className='m-4 w-52 h-36 flex flex-col justify-center items-center
            bg-gray-500/10 dark:bg-transparent hover:shadow-gray-600 hover:shadow-md shadow-lg
            dark:shadow-sm dark:shadow-white dark:hover:shadow-red-600 dark:hover:shadow-lg rounded-xl
-          hover:scale-105 ease-in-out duration-300 hover:text-shadow-titledark dark:hover:text-shadow-contact-red'
+          hover:scale-105 ease-in-out duration-300 hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_8px_rgb(200_38_38)]'
             data-aos="fade-down-right"
             data-aos-duration="1500" id="contacts">
             <a className='flex flex-col items-center text-lg dark:text-cyan-50 ' href='mailto:federampi@gmail.com'>
@@ -54,7 +54,7 @@ function Contacs() {
           <div className='m-4 w-52 h-36 flex flex-col justify-center items-center
            bg-gray-500/10 dark:bg-transparent hover:shadow-gray-600 hover:shadow-md shadow-lg
            dark:shadow-sm  dark:shadow-white dark:hover:shadow-blue-600 dark:hover:shadow-lg rounded-xl
-           hover:scale-105 ease-in-out duration-300 hover:text-shadow-titledark dark:hover:text-shadow-contact-blue'
+           hover:scale-105 ease-in-out duration-300 hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_8px_rgb(37_99_235)]'
             data-aos="fade-down-right"
             data-aos-duration="1000" id="contacts">
             <a className='flex flex-col items-center text-lg dark:text-cyan-50 p-2' href='https://www.linkedin.com/in/federico-rampi/'>

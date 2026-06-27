@@ -14,7 +14,7 @@ function About() {
 
 
         <h2 className='tracking-widest font-alegraya m-2  text-3xl text-center font-medium 
-      dark:text-blue-600 lg:text-5xl lg:m-4 text-blue-900 dark:text-shadow-titledark' >
+      dark:text-blue-600 lg:text-5xl lg:m-4 text-blue-900 dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]' >
           {t('about.title')}</h2>
         <div className='flex flex-col justify-center items-center align-middle'>
           <p className='font-ubuntu text-base text-justify md:leading-relaxed md:tracking-wider

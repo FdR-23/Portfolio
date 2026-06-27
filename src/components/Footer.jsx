@@ -17,7 +17,7 @@ function Footer() {
       {/* night */}
       <img className='w-20  rounded-full shadow-3xl shadow-blue-900 dark:hidden' src={logoday2} alt="" />
       <p className='font-alegraya text-center tracking-tighter text-base lg:text-lg 
-      text-indigo-900 dark:text-white text-shadow-titledark dark:text-shadow-contact-white'>© Rampi Federico Daniel</p>
+      text-indigo-900 dark:text-white [text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:[text-shadow:-2px_1px_8px_rgb(255_255_255)]'>© Rampi Federico Daniel</p>
     </footer>
   )
 }

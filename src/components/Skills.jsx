@@ -28,12 +28,12 @@ function Skills() {
       <section className='p-4 lg:p-8 max-w-full h-full rounded-lg '>
         
       <h2 className='tracking-widest font-alegraya m-2 text-3xl text-center font-medium 
-      dark:text-blue-600 lg:text-5xl lg:m-4 text-blue-900 dark:text-shadow-titledark' >SKILLS</h2>
+      dark:text-blue-600 lg:text-5xl lg:m-4 text-blue-900 dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]' >SKILLS</h2>
 
         <div className="flex flex-col justify-center items-center align-middle " >
 
           <h3 className='font-alegraya text-2xl m-2 dark:text-white sm:m-4 lg:text-3xl 
-          text-indigo-700 dark:text-shadow-titledark'>Frontend</h3>
+          text-indigo-700 dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]'>Frontend</h3>
           <section className='flex flex-wrap justify-center items-center align-middle'>
             <a data-aos="flip-left" data-aos-duration="1000"
             className='w-28 h-24 lg:w-32 lg:h-28 m-2 mx-2 lg:m-4 lg:mx-4  flex flex-col items-center justify-center
@@ -133,7 +133,7 @@ function Skills() {
 
           </section>
           <h3 className='font-alegraya text-2xl m-2 dark:text-white sm:m-4 lg:text-3xl
-          text-indigo-700 dark:text-shadow-titledark'>Backend</h3>
+          text-indigo-700 dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]'>Backend</h3>
           <section className='flex flex-wrap justify-center items-center  align-middle'>
             <a data-aos="flip-right" data-aos-duration="1000"
             className='w-28 h-24 lg:w-32 lg:h-28 m-2 mx-2  flex flex-col items-center justify-center 
@@ -191,7 +191,7 @@ function Skills() {
 
 
           <h3 className='font-alegraya text-2xl m-2 dark:text-white sm:m-4 lg:text-3xl
-          text-indigo-700 dark:text-shadow-titledark'>Tools</h3>
+          text-indigo-700 dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]'>Tools</h3>
           <section className='flex flex-wrap justify-center items-center align-middle'>
 
             <a data-aos="flip-down" data-aos-duration="1000"
