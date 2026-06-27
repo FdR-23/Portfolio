@@ -49,9 +49,9 @@ function Intro() {
                             data-aos-delay="500"
                             data-aos-duration="2000">
 
-                            <h2 className="text-xl font-medium tracking-widest dark:text-white dark:text-shadow-titledark font-alegraya lg:text-2xl">{t('intro.title')}</h2>
-                            <p className='text-2xl font-bold tracking-wider text-blue-800 dark:text-shadow-name md:text-2xl xl:text-3xl '>FeDe!</p>
-                            <p className="mt-2 text-lg font-medium tracking-tighter dark:text-white dark:text-shadow-titledark font-alegraya md:tracking-wide md:text-lg xl:text-xl">
+                            <h2 className="text-xl font-medium tracking-widest dark:text-white dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] font-alegraya lg:text-2xl">{t('intro.title')}</h2>
+                            <p className='text-2xl font-bold tracking-wider text-blue-800 [text-shadow:1px_1px_4px_rgb(255_255_255_/_75%)] md:text-2xl xl:text-3xl '>FeDe!</p>
+                            <p className="mt-2 text-lg font-medium tracking-tighter dark:text-white dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] font-alegraya md:tracking-wide md:text-lg xl:text-xl">
                                 {t('intro.welcome')}
                             </p>
 
