@@ -1,101 +1,82 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import Cv_spanish from '../../assets/Cv/Cv_Rampi_Federico_Spanish.pdf';
 import Cv_english from '../../assets/Cv/Cv_Rampi_Federico_English.pdf';
 
-import Toggle from './Toggle';
-import ScrollBack from './ScrollBack'
-
-import es from '../../img/flags/es.png'
-import uk from '../../img/flags/uk.png'
-
-import { useTranslation } from 'react-i18next'
-
 function Navbar() {
-
   const { t, i18n } = useTranslation('global');
+  const [scrolled, setScrolled] = useState(false);
+  const [dark, setDark] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return (
+      document.documentElement.classList.contains('dark') ||
+      window.matchMedia('(prefers-color-scheme: dark)').matches
+    );
+  });
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', dark);
+  }, [dark]);
+
+  const cvUrl = i18n.language === 'es' ? Cv_spanish : Cv_english;
 
   return (
+    <header className={`navbar${scrolled ? ' scrolled' : ''}`}>
+      <div className="navbar-inner">
+        <a href="#" className="navbar-logo">FR</a>
 
-    <div className='p-2 sm:p-4 lg:p-8 items-center max-w-full text-black
-    shadow-nav1 shadow-black bg-gray-600/20
-    dark:hover:shadow-3xl dark:shadow-white dark:text-white
-    sm:flex sm:justify-between'>
+        <nav className="navbar-links hide-mobile">
+          <a href="#work" className="navbar-link">{t('navbar.nav1')}</a>
+          <a href="#about" className="navbar-link">{t('navbar.nav2')}</a>
+          <a href="#contact" className="navbar-link">{t('navbar.nav3')}</a>
+          <a href={cvUrl} target="_blank" rel="noopener noreferrer" className="navbar-link-cv">CV</a>
+        </nav>
 
-      <div className='font-alegraya tracking-tighter font-bold text-center'>
-        <h1 className="text-xl relative top-3 sm:hidden
-        [text-shadow:-1px_1px_20px_rgb(113_134_200)] dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]">
-          Federico D. Rampi
-          <span className='block text-sm'>Full Stack Developer</span>
-        </h1>
+        <div className="navbar-actions">
+          {/* Language toggle */}
+          <div className="navbar-lang">
+            <button
+              onClick={() => i18n.changeLanguage('es')}
+              className={`navbar-lang-btn${i18n.language === 'es' ? ' active' : ''}`}
+            >
+              es
+            </button>
+            <span className="navbar-lang-sep">/</span>
+            <button
+              onClick={() => i18n.changeLanguage('en')}
+              className={`navbar-lang-btn${i18n.language === 'en' ? ' active' : ''}`}
+            >
+              en
+            </button>
+          </div>
 
-        <h1 className='hidden sm:block relative left-4 sm:text-lg md:text-2xl lg:text-3xl text-indigo-900
-         dark:text-white [text-shadow:-1px_1px_20px_rgb(113_134_200)] dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)]'>
-          Federico Daniel Rampi
-          <span className='block text-base md:text-xl lg:text-2xl'>Full Stack Developer</span>
-        </h1>
+          {/* Dark mode toggle */}
+          <button
+            onClick={() => setDark(!dark)}
+            className="navbar-toggle"
+            aria-label="Toggle dark mode"
+          >
+            {dark ? (
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+            ) : (
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="12" cy="12" r="5" />
+                <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+              </svg>
+            )}
+          </button>
+        </div>
       </div>
-
-      <Toggle />
-      <ScrollBack />
-
-      <nav>
-        <ul className='hidden sm:flex uppercase bg-white/10 rounded-lg shadow-xl
-          sm:gap-4 sm:p-3 sm:relative sm:-right-8
-          md:gap-6 md:p-4 md:relative md:-right-4
-          lg:right-0'>
-          <li className='hover:scale-125 duration-300 brightness-90 hover:brightness-200
-          hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_10px_rgb(255_255_255)]'>
-            <a className='text-xs md:text-sm p-1 lg:p-2' href="#about">{t("navbar.nav1")}</a></li>
-          <li className='hover:scale-125 duration-300 brightness-90 hover:brightness-200
-          hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_10px_rgb(255_255_255)]'>
-            <a className='text-xs md:text-sm p-1 lg:p-2' href="#skills">{t("navbar.nav2")}</a></li>
-          <li className='hover:scale-125 duration-300 brightness-90 hover:brightness-200
-          hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_10px_rgb(255_255_255)]'>
-            <a className='text-xs md:text-sm p-1 lg:p-2' href="#proyects">{t("navbar.nav3")}</a></li>
-          <li className='hover:scale-125 duration-300 brightness-90 hover:brightness-200
-          hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_10px_rgb(255_255_255)]'>
-            <a className='text-xs md:text-sm p-1 lg:p-2' href="#contacts">{t("navbar.nav4")}</a></li>
-          <li className='hover:scale-125 duration-300 brightness-90 hover:brightness-200
-          hover:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] dark:hover:[text-shadow:-2px_1px_10px_rgb(255_255_255)]'>
-            {i18n.language === "es" ?
-              <a className='text-xs md:text-sm p-1 lg:p-2' href={Cv_spanish} rel="noopener noreferrer" target="_blank">Cv.<sup>ES</sup></a> :
-              <a className='text-xs md:text-sm p-1 lg:p-2' href={Cv_english} rel="noopener noreferrer" target="_blank">Cv.<sup>EN</sup></a>
-            }</li>
-        </ul>
-      </nav>
-
-      <nav className='mt-6 sm:hidden'>
-        <ul className='sm:hidden flex flex-row uppercase justify-around
-          bg-black/10 max-w-full p-1 rounded-lg'>
-          <li><a className='dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] text-xs p-1' href="#about">{t("navbar.nav1")}</a></li>
-          <li><a className='dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] text-xs p-1' href="#skills">{t("navbar.nav2")}</a></li>
-          <li><a className='dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] text-xs p-1' href="#proyects">{t("navbar.nav3")}</a></li>
-          <li><a className='dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] text-xs p-1' href="#contacts">{t("navbar.nav4")}</a></li>
-          <li>{i18n.language === "es" ?
-            <a className='dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] text-xs p-1'
-              href={Cv_spanish} rel="noopener noreferrer" target="_blank">Cv.<sup>ES</sup></a> :
-            <a className='dark:[text-shadow:-2px_1px_8px_rgb(118_118_118_/_40%)] text-xs p-1'
-              href={Cv_english} rel="noopener noreferrer" target="_blank">Cv.<sup>EN</sup></a>
-          }</li>
-        </ul>
-      </nav>
-
-      <div className='flex justify-end sm:relative sm:top-8 sm:-right-4 lg:top-12 lg:-right-6'>
-        <button
-          onClick={() => i18n.changeLanguage("es")}
-          className={`w-6 m-1 md:w-8 ${i18n.language === "es" ? 'brightness-125' : 'brightness-75'}`}>
-          <img src={es} alt="flag_es" />
-        </button>
-        <button
-          onClick={() => i18n.changeLanguage("en")}
-          className={`w-6 m-1 md:w-8 ${i18n.language === "en" ? 'brightness-125' : 'brightness-75'}`}>
-          <img src={uk} alt="flag_uk" />
-        </button>
-      </div>
-
-    </div>
+    </header>
   );
 }
 
-export default Navbar
+export default Navbar;

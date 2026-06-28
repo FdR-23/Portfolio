@@ -4,8 +4,6 @@ import './Styles/index.css';
 import App from './App';
 import { I18nextProvider } from 'react-i18next'
 import i18next from 'i18next';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 import global_es from './Language/es/global.json'
 import global_en from './Language/en/global.json'
@@ -23,8 +21,6 @@ i18next.init({
     },
   }
 });
-
-AOS.init();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
