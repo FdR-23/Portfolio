@@ -1,69 +1,65 @@
 {
     "navbar": {
-        "nav1": "About me",
-        "nav2": "Skills",
-        "nav3": "Projects",
-        "nav4": "Contact"
+        "nav1": "Work",
+        "nav2": "About",
+        "nav3": "Contact"
     },
-    "intro": {
-        "title": "Hello everyone, I am",
-        "welcome": "Welcome to my portfolio"
+    "hero": {
+        "tag": "Software Developer",
+        "title1": "Designing experiences.",
+        "title2": "Evolving products.",
+        "desc": "I aim to build software that feels simple, even when there's complexity underneath.",
+        "btnWork": "Explore",
+        "btnAbout": "About"
     },
     "about": {
-        "title": "About Me!",
-        "intro1": "As a software developer, I always seek new challenges to apply my skills and knowledge. I am a proactive and collaborative team member with a strong work ethic and analytical abilities to efficiently solve problems.",
-        "intro2": "I consider myself a constant learner, always willing to improve my skills and stay up-to-date with the latest trends in the field of computer science. My goal is to join an innovative team where I can make a significant contribution as a Full-stack Developer or Front-end.",
-        "intro3": "Thank you for reviewing my profile! I am available to discuss any opportunities or projects you may have, and I look forward to contributing to the team's success."
+        "title": "About",
+        "intro1": "I like building products that work well for those who use them and are also sustainable for those who maintain them.",
+        "intro2": "My journey started closer to the frontend, but over time I became increasingly involved in decisions that connect experience, product, and implementation.",
+        "intro3": "Today I especially enjoy understanding problems, finding points of improvement, and turning complex processes into simpler, clearer experiences."
+    },
+    "skills": {
+        "title": "Skills",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Tools"
     },
     "projects": {
         "title": "Projects",
-        "pokeintro": "Individual academic project of Soy Henrry's bootcamp. It is a SPA (Single Page Application), in which you can see different types of pokemon, you can also filter and/or sort them. You can also create new pokemon.",
-        "pokeintro2": "This application was developed by me both frontend and backend.This application was developed by me both frontend and backend..",
-        "modalpoke": "It is a SPA, where an API (PokéAPI) is consumed, the project consisted in showing the Pokémons, searching them in a specific way, filtering and sorting. You can also see the details of each Pokémon by clicking on the image and you can create a Pokémon.",
         "bnb_vermas": "More",
-        "modal_tecnologia": "Technologies:",
+        "bnb_vermenos": "Less",
         "bnb_codigo": "Code",
-        
-        "weatherAppintro": "It is a SPA (Single Page Application) in which you can search the weather of different cities.",
-        "weatherAppintro2": "This application was developed by me.",
-        "modalweatherApp": "It is a SPA, where an API (OpenWeathermap) is consumed. You can search for the city you want to see, it will be displayed on the screen with the temperature, the country and an image of the weather, you can delete that we no longer want to see. Also in More Details option you can see more information about the city.",
-       
-        "heanrybankintro": "Academic group project of the Soy Henrry bootcamp. It is a virtual mobile wallet, where the user can deposit money, receive money from his account, buy and sell currencies, as well as cryptocurrencies.",
-        "heanrybankintro2": "In this project I worked on the backend.",
-        "modalhenrybank": "Henry Bank is a virtual wallet in mobile format (apk) developed in React Native. It was born as an integrative group project to put into practice all the knowledge acquired in the Soy Henry bootcamp. We also work using the SCRUM methodology",
-        "bnb_code_front": "Code-Frontend",
-        "bnb_code_back": "Code-Backend",
+        "modal_tecnologia": "Technologies:",
+        "bnb_code_front": "Frontend",
+        "bnb_code_back": "Backend",
 
-        "MeliCLoneIntro": "Project based on MercadoLibre's challenge, but this time we made a clone of MercadoLibre's main page and consumed its API to give it some functionalities.",
-        "MeliCLone2": "",
-        "modalMeliCLone":"The main functions of the application are, item search with results view and also filtering, item details showing also questions asked by users.",
+        "pokeintro": "Individual academic project from Soy Henry bootcamp. SPA where you can view different Pokémon types, filter, sort, and create new ones.",
+        "pokeintro2": "This application was developed entirely by me, both frontend and backend, consuming the PokéAPI.",
 
-        "ChallengeRappi": "Rappi Frontend Developer Challenge",
-        "ChallengeRappi2": "This application was developed by me.",
-        "modalChallengeRappi":"Frontend Developer Challenge of Rappi asked for some requirements for an e-commerce like, menu with sublevels, filter and sort products by price, quantity and availability, create a cart and the products stay in the cart if the user closes the page, etc. All requirements are in the github readme.",
+        "MeliCLoneIntro": "Project based on MercadoLibre's challenge. A clone of the main page consuming their API for search and item details.",
+        "MeliCLone2": "Includes item search with result filtering, item details, and user questions.",
 
-        "ChallengeLogin": "Challenge that contains Roles like admin and user, in which we are going to be able to register and when entering we are going to see a table of clients that we can create, modify and eliminate with the role of admin. ",
-        "ChallengeLogin2": "We will also be able to filter them from highest to lowest or vice versa, also search by name and age range.",
-        "modalChallengeLogin": "For this challenge in the Fronted we used React, Redux for the state management and Tailwind CSS for the styles, also for the password encryption we used JWT. In the Backend part I had to generate a REST API for the Login and the CRUD, which I made the routes with Express.js and for the Database, I was learning to use MongoDB, with the ORM Mongoose. More information can be found in the Readme of the Github repository.",
+        "SmartInvestIntro": "A platform for crypto news, listings, trends, and coin details — all in one place.",
+        "SmartInvestIntro2": "Features interactive charts across time periods using CoinGecko API and a news API.",
 
-        "ToDoListIntro": "Project that consists of creating your own task list.",
-        "ToDoListIntro2": "This application was developed by me.",
-        "modalTodoList":"App used to create your list of tasks, in which we can add them and once we have completed it, we can change its status and delete it, we can also delete a set of completed tasks or clean the entire list without having completed the tasks.",
+        "UnderGraffIntro": "Women's fashion store project with categorized product browsing.",
+        "UnderGraffIntro2": "Users can browse products and add favorites to a personalized shopping cart.",
 
-        "GitAppIntro":"I have developed a web application using React and Tailwind CSS on the frontend, and Express.js for path creation. The application consumes the GitHub API, using the link-header package to implement the pagination provided by the API itself..",
-        "GitAppIntro2":"",
-        "modalGitApp":"The application allows to visualize a list of GitHub users, with the possibility to access the details of each user and their respective repositories. My focus in the development of this application has been to improve my skills in handling APIs and building web applications using React.",
-       
-        "SmartInvestIntro":"It is a platform where you can find news, listings, trends, and details about cryptocurrencies, all in one place.",
-        "SmartInvestIntro2":"",
-        "modalSmartInvest":"Additionally, users will be able to access details and an interactive chart that displays prices over different periods, ranging from 24 hours to the all-time high. All of this is made possible through the integration of the CoinGecko API and a news API that I have incorporated into the application.",
-               
-        "UnderGraffIntro":"Women's fashion store project.",
-        "UnderGraffIntro2":"",
-        "modalUnderGraff":"On this platform, products are organized into various categories for a seamless shopping experience. Userqs can browse products and add their favorite items to a personalized shopping cart."
-    }, 
+        "GitAppIntro": "Web app consuming the GitHub API to list users and their repositories.",
+        "GitAppIntro2": "Built with React, Tailwind CSS, and Express.js with link-header pagination.",
 
-    "contact" :{
-        "title":"Contact"
+        "weatherAppintro": "SPA to search and display weather data for cities worldwide.",
+        "weatherAppintro2": "Consumes OpenWeatherMap API with detailed weather information.",
+
+        "heanrybankintro": "Academic group project — a virtual mobile wallet for deposits, transfers, and crypto trading.",
+        "heanrybankintro2": "I worked on the backend development for this project.",
+
+        "ChallengeLogin": "Role-based authentication challenge with admin/user roles and client CRUD.",
+        "ChallengeLogin2": "Includes filtering (by name, age range), sorting, and JWT-based security."
+    },
+
+    "contact": {
+        "title": "Let's Connect",
+        "desc": "Open to collaborating on projects, freelance inquiries, or just connecting."
     }
 }

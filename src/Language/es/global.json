@@ -1,70 +1,65 @@
 {
     "navbar": {
-        "nav1": "Sobre mí",
-        "nav2": "Skills",
-        "nav3": "Proyectos",
-        "nav4": "Contacto"
+        "nav1": "Work",
+        "nav2": "Sobre mí",
+        "nav3": "Contacto"
     },
-    "intro": {
-        "title": "Hola a todos,soy",
-        "welcome": "Bienvenidos a mi portfolio"
+    "hero": {
+        "tag": "Software Developer",
+        "title1": "Diseñando experiencias.",
+        "title2": "Evolucionando productos.",
+        "desc": "Busco construir software que se sienta simple, aunque detrás exista complejidad.",
+        "btnWork": "Explorar",
+        "btnAbout": "Sobre mí"
     },
     "about": {
-        "title": "Sobre Mí!",
-        "intro1": "Como desarrollador de software, siempre busco nuevos desafíos para aplicar mis habilidades y conocimientos. Soy un miembro proactivo y colaborativo del equipo, con una sólida ética de trabajo y habilidades analíticas para resolver problemas eficientemente.",
-        "intro2": "Me considero un aprendiz constante, siempre dispuesto a mejorar mis habilidades y estar al tanto de las últimas tendencias en el campo de la informática. Mi objetivo es unirme a un equipo innovador donde pueda hacer una contribución significativa como Full-stack Developer o Front-end.",
-        "intro3": "¡Gracias por revisar mi perfil! Estoy disponible para discutir cualquier oportunidad o proyecto que puedas tener, y espero poder contribuir al éxito del equipo."
+        "title": "Sobre mí",
+        "intro1": "Me gusta construir productos que funcionen bien para quienes los usan y que también sean sostenibles para quienes los mantienen.",
+        "intro2": "Mi recorrido empezó más cerca del frontend, pero con el tiempo fui involucrándome cada vez más en decisiones que conectan experiencia, producto e implementación.",
+        "intro3": "Hoy disfruto especialmente entender problemas, encontrar puntos de mejora y convertir procesos complejos en experiencias más simples y claras."
+    },
+    "skills": {
+        "title": "Skills",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Tools"
     },
     "projects": {
         "title": "Proyectos",
-        "pokeintro": "Proyecto academico individual del bootcamp de Soy Henrry. Es una SPA (Single Page Aplication), en los que se puede ver distintos tipos de pokemon, tambien se puede filtrar y/o ordenar. Tambien se puede crear nuevos pokemons.",
-        "pokeintro2": "Esta aplicacion fue desarrolloda por mi tanto frontend como backend.",
-        "modalpoke": "Es una SPA, donde se consume una API (PokéAPI), el proyecto consistía en mostrar los Pokémons, buscarlos de forma específica, filtrar y ordenar. También puedes ver los detalles de cada Pokémon haciendo clic en la imagen y puedes crear un Pokémon.",
-        "bnb_vermas": "ver mas",
-        "modal_tecnologia": "Tecnologias:",
-        "bnb_codigo": "Codigo",
-        
-        "weatherAppintro": "Es una SPA (Single Page Aplication) en el que se puede buscar el clima de distintas ciudades.",
-        "weatherAppintro2": "Esta aplicacion fue desarrolloda por mi.",
-        "modalweatherApp": "Es una SPA, donde se consume una API (OpenWeathermap). Se puede buscar la ciudad que queremos ver, se van a ir mostrando en pantalla con la temperatura, el país y una imagen del clima, se puede eliminar que ya no queremos ver. También en opción More Details se puede ver más información de la ciudad.",
-        
-        "heanrybankintro": "Proyecto academico grupal del bootcamp de Soy Henrry. Es un monedero virtual mobile, donde el usuario puede ingresar dinero, como recibir dinero desde su cuenta, comprar y vender divisas, como también criptomonedas.",
-        "heanrybankintro2": "En este proyecto trabaje en el backend.",
-        "modalhenrybank": "Henry Bank es un monedero virtual en formato móvil (apk) desarrollado en React Native. Nació como un proyecto grupal integrador para poner en práctica todos los conocimientos adquiridos en el bootcamp de Soy Henry. Tambien trabajamos mediante la metodología SCRUM",
-        "bnb_code_front": "Codigo-Frontend",
-        "bnb_code_back": "Codigo-Backend",
+        "bnb_vermas": "ver más",
+        "bnb_vermenos": "ver menos",
+        "bnb_codigo": "Código",
+        "modal_tecnologia": "Tecnologías:",
+        "bnb_code_front": "Frontend",
+        "bnb_code_back": "Backend",
 
-        "MeliCLoneIntro": "Proyecto realizado en base al challenge de MercadoLibre, pero en esta ocasión se realizó un clon de la página principal de MercadoLibre y se consumió su API para darle algunas funcionalidades.",
-        "MeliCLone2": "",
-        "modalMeliCLone":"Las funciones principales de la aplicación son, la búsqueda de artículos con vista de los resultados y también filtrado, detalles de articulo mostrando también preguntas hechas por los usuarios.",
-        
-        "ChallengeRappi": "Frontend Developer Challenge de Rappi",
-        "ChallengeRappi2": "Esta aplicacion fue desarrolloda por mi.",
-        "modalChallengeRappi":"Frontend Developer Challenge de Rappi se pedían algunos requerimientos para un e-commerce como, menú con subniveles, filtrar y ordenar productos por precio, cantidad y disponibilidad, crear un carrito y que los productos queden en el carrito si el usuario cierra la página, etc. Todos los requerimientos están en el readme de Github.",
+        "pokeintro": "Proyecto académico individual del bootcamp de Soy Henry. SPA donde podés ver distintos tipos de Pokémon, filtrar, ordenar y crear nuevos.",
+        "pokeintro2": "Esta aplicación fue desarrollada completamente por mí, tanto frontend como backend, consumiendo la PokéAPI.",
 
-        "ChallengeLogin": "Challenge que contiene Roles como admin y user, en el que vamos a poder registrarnos y al ingresar vamos a ver una tabla de clientes que podemos crear, modificar y eliminar con el rol de admin. ",
-        "ChallengeLogin2": "También vamos a poder filtrarlos de mayor a menor o viceversa, también buscar por nombre y por rango de edad.",
-        "modalChallengeLogin": "Para este reto en el Fronted usamos React, Redux para la gestión de estados y Tailwind CSS para los estilos, también para el cifrado de contraseñas usamos JWT. En la parte de Backend tuve que generar una API REST para el Login y el CRUD, el cual hice las rutas con Express.js y para la Base de Datos, estuve aprendiendo a usar MongoDB, con el ORM Mongoose. Más información encontraran en el Readme del Repositorio de Github.",
+        "MeliCLoneIntro": "Proyecto basado en el challenge de MercadoLibre. Un clon de la página principal consumiendo su API.",
+        "MeliCLone2": "Incluye búsqueda con filtros, detalles de artículos y preguntas de usuarios.",
 
-        "ToDoListIntro": "Proyecto que consiste en la creación de tu propia lista de tarea.",
-        "ToDoListIntro2": "Esta aplicacion fue desarrolloda por mi.",
-        "modalTodoList":"App que sirve para crear tu lista de tareas, en el cual podremos agregarlas y una vez que la hemos completado, podemos cambiar su status y eliminarla, también se puede eliminar un conjunto de tareas completadas o bien limpiar toda la lista sin que se haya completado las tareas.",
+        "SmartInvestIntro": "Plataforma de noticias, listados, tendencias y detalles sobre criptomonedas en un solo lugar.",
+        "SmartInvestIntro2": "Gráficos interactivos con la API de CoinGecko y una API de noticias.",
 
-        
-        "GitAppIntro":"He desarrollado una aplicación web utilizando React y Tailwind CSS en el frontend, y Express.js para la creación de rutas. La aplicación consume la API de GitHub, utilizando el paquete link-header para implementar el paginado que proporciona la propia API.",
-        "GitAppIntro2":"",
-        "modalGitApp":"La aplicación permite visualizar un listado de usuarios de GitHub, con la posibilidad de acceder a los detalles de cada usuario y sus respectivos repositorios. Mi enfoque en el desarrollo de esta aplicación ha sido mejorar mis habilidades en el manejo de APIs y en la construcción de aplicaciones web utilizando React.",
-   
-        "SmartInvestIntro":"Es una plataforma donde podrán encontrar noticias, listados, tendencias y detalles sobre criptomonedas, todo en un solo lugar.",
-        "SmartInvestIntro2":"",
-        "modalSmartInvest":"Además, podrán acceder a detalles y un gráfico interactivo que muestra los precios en diferentes periodos, desde 24 horas hasta el máximo histórico. Todo esto es posible gracias a la integración de la API de CoinGecko y una API de noticias que he incorporado en la aplicación.",
-          
-        "UnderGraffIntro":"Proyecto de tienda de moda femenina.",
-        "UnderGraffIntro2":"",
-        "modalUnderGraff":"En esta plataforma, los productos están organizados en diversas categorías para una experiencia de compra fluida. Los usuarios pueden explorar los productos y agregar sus artículos favoritos a un carrito de compras personalizado."
+        "UnderGraffIntro": "Tienda de moda femenina con productos organizados por categorías.",
+        "UnderGraffIntro2": "Los usuarios pueden explorar productos y agregar favoritos al carrito.",
+
+        "GitAppIntro": "App web que consume la API de GitHub para listar usuarios y repositorios.",
+        "GitAppIntro2": "Construida con React, Tailwind CSS y Express.js con paginación link-header.",
+
+        "weatherAppintro": "SPA para buscar y mostrar el clima de ciudades alrededor del mundo.",
+        "weatherAppintro2": "Consume la API de OpenWeatherMap con información detallada del clima.",
+
+        "heanrybankintro": "Proyecto grupal académico — billetera virtual mobile para depósitos, transferencias y trading de cripto.",
+        "heanrybankintro2": "Trabajé en el backend de este proyecto.",
+
+        "ChallengeLogin": "Challenge de autenticación por roles (admin/user) con CRUD de clientes.",
+        "ChallengeLogin2": "Incluye filtrado por nombre/rango de edad, ordenamiento y seguridad JWT."
     },
-    "contact" :{
-        "title":"Contacto"
+
+    "contact": {
+        "title": "Conectemos",
+        "desc": "Estoy abierto a colaborar en proyectos, consultas freelance o simplemente conectar."
     }
 }
-
